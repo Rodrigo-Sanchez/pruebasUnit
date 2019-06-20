@@ -14,14 +14,6 @@ function requerido($valor)
 
 /**
  * Valida que el valor se encuentre dentro de la lista especificada
- * @param mixed $valor Valor que se debe validar
- * @param array $set Lista de valores donde se desea buscar el valor
- *
- * @return True si el valor se encuentra en la lista, False en caso contrario
- */
-
-/**
- * Valida que el valor se encuentre dentro de la lista especificada
  *
  * @param [type] $valor
  * @param array $set Lista de valores donde se desea buscar el valor
