@@ -5,8 +5,9 @@
     class BasicTest extends TestCase
     {
         //Metodo creado para fallar
-        public function testToFail(){
-            $this->assertTrue(false,'He sido creada para fallar');
+        public function testToFail()
+        {
+            $this->assertTrue(false, 'He sido creada para fallar');
         }
         //Se toma como condicion inicial una instancia con tres elementos. Se desean
         //evaluar los resultados del metodo hasItemInBox ante diferentes entradas:
