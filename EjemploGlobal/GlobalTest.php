@@ -5,6 +5,10 @@ require 'Global.php';
 
 class DependencyFailureTest extends TestCase
 {
+
+    /**
+     * @backUpGlobals enabled
+     */
     public function testGenerateSessionToken()
     {
         generateSessionToken();
