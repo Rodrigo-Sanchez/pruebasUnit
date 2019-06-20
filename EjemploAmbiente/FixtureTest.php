@@ -8,7 +8,7 @@
 
         public static function setUpBeforeClass(): void{
             self::$stackBackup = [];
-            self::$file = fopen("prueba.txt", "r");
+            self::$file = fopen("EjemploAmbiente/prueba.txt", "r");
         }
 
         protected function setUp(): void
@@ -29,7 +29,7 @@
             $this->assertTrue(empty($this->stackBackup));
             array_push($this->stack, 'foo');
             $this->assertSame(1, $this->stack[0]);
-            $this->assertFalse(empty($this->stack),"Fallo");
+            $this->assertFalse(empty($this->stack), "Fallo");
         }
 
         public function testPop()
