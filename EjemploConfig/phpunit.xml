@@ -21,6 +21,9 @@
     <filter>
         <whitelist>
             <directory suffix=".php">../EjemploCobertura/filter/AllowedDirectory</directory>
+            <!-- <exclude>
+                <directory>../EjemploAmbiente/filter/AllowedDirectory</directory>
+            </exclude> -->
         </whitelist>
     </filter>
 
