@@ -7,11 +7,14 @@
     forceCoversAnnotation       = "false"
     processIsolation            = "false"
     stopOnFailure               = "false"
-    >
+>
 
     <testsuites>
-        <testsuite name="Ejemplo">
+        <testsuite name="Ejemplo1">
             <directory>../EjemploSimple</directory>
+        </testsuite>
+        <testsuite name="Ejemplo2">
+            <directory>../EjemploAmbiente</directory>
         </testsuite>
     </testsuites>
 
